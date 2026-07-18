@@ -1,0 +1,13 @@
+dataset,encoding,reps,entanglement,arch_cv_accuracy
+breast_cancer,z,1,,0.973
+breast_cancer,zz,1,linear,0.873
+breast_cancer,pauli,1,linear,0.753
+wine,z,1,,0.962
+wine,zz,1,linear,0.777
+wine,pauli,1,linear,0.715
+iris_hard,z,1,,0.93
+iris_hard,zz,1,full,0.88
+iris_hard,pauli,1,linear,0.72
+digits_4v9,z,1,,0.973
+digits_4v9,zz,1,linear,0.9
+digits_4v9,pauli,1,linear,0.787

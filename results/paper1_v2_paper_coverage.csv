@@ -1,0 +1,21 @@
+paper_no,paper,status,reason
+1,Choi et al. -- COVID-19 biomarkers,Restricted,"INCOV cohort is public (linked to Su et al., Cell 2022), but full replication also needs the Cleveland Clinic cohort, released only 'on reasonable request'"
+2,Zarbipour et al. -- wave overtopping,Restricted,"CLASH database access is granted via registration with the originating research consortium, not an open download; also a regression, not classification, task"
+3,Franco et al. -- quantum phase classification,Requires simulation,requires simulating ANNNI-model ground states rather than downloading data
+4,Yadav et al. -- breast cancer diagnosis,Included,Breast Cancer Wisconsin is publicly bundled and loadable offline
+5,Xu et al. -- algorithmic survey,"Public, task mismatch","Iris is public, but their demos used only 8-16 samples -- too small to be a meaningful comparison at our audit scale"
+6,Wankhede et al. -- financial predictions,"Public, not fetched","S&P 500 prices and macroeconomic indicators are broadly public (e.g. via Yahoo Finance, FRED) but require an internet fetch not available here"
+7,Shahid et al. -- movie recommendations,"Public, not fetched","IMDB movie data is a public Kaggle dataset (~25M records), not fetched here due to size and no internet access"
+8,Wang & Cao -- quantum phase transition,Requires simulation,requires simulating physical Hamiltonians rather than downloading data
+9,El Ayachi & El Baz -- multipartite entanglement,Partial,"uses public datasets (Iris, Digits, Breast Cancer, Titanic, Blood Transfusion, Palmer Penguins, Fashion-MNIST) but our extracted summary lacks precise per-dataset accuracy figures to cite exactly"
+10,Lalawat et al. -- EEG motor imagery,"Public, not fetched","BCI Competition IV Dataset 2a is a standard public EEG benchmark, not fetched here due to no internet access"
+11,Ranga et al. -- Iris/Wine empirical study,Included,Iris and Wine are publicly bundled and loadable offline
+12,Abdulsalam & Ahmad -- kernel comparison,"Public, not fetched","all 11 datasets (Cleveland Heart Disease, Glass, Concrete, Abalone, Auto MPG, etc.) are classic public UCI repository sets, not fetched here due to no internet access"
+13,Sharma et al. -- cross-domain quantum states,Requires simulation,requires generating synthetic quantum states via QuTiP rather than downloading data
+14,Bayro & Jeong -- VR affective computing,Restricted,"original, unpublished human-subjects dataset -- not released publicly"
+15,Date et al. -- adiabatic QSVM,Included,Iris (among others) is publicly bundled and loadable offline
+16,Nadim et al. -- software bug prediction,"Public, not fetched","commit histories are mined from public open-source repositories, not fetched here due to no internet access"
+17,Naresh & Reddi -- healthcare predictive analytics,Included,"Wine, Breast Cancer, Iris are bundled; Diabetes (Pima Indians) and Prostate Cancer are public UCI sets but not sklearn-bundled, so excluded here specifically"
+18,Akrom et al. -- blood-brain-barrier permeability,"Public, not fetched","the BBBP dataset is part of the public MoleculeNet benchmark suite, not fetched here due to no internet access"
+19,Cattan et al. -- Parkinson's gait classification,Restricted,the internal 37-subject clinical cohort is private; the KOA-PD-NM comparison dataset is public but the study's primary result relies on the private cohort
+20,Zhou et al. -- QKE-QSVR regression,"Public, task mismatch","NASA airfoil self-noise is a public UCI dataset, but this is a regression task requiring a different (SVR/QSVR) pipeline, out of scope for this classification-focused audit"
